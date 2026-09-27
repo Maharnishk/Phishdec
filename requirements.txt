@@ -1,0 +1,14 @@
+# core (required)
+requests>=2.31
+
+# DNS / WHOIS enrichment (highly recommended)
+dnspython>=2.4
+python-whois>=0.9
+
+# QR decode (OpenCV works with no system DLLs; pyzbar optional but more accurate)
+opencv-python>=4.8
+pillow>=10.0
+pyzbar>=0.1.9 ; sys_platform != "win32"
+
+# QR generation for awareness kit
+qrcode[pil]>=7.4
