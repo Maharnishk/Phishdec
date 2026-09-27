@@ -1,0 +1,22 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+
+# Reports / outputs (generated, don't commit)
+phishdec_report.json
+phishdec_report.html
+phishdec_report.csv
+watch_*.json
+awareness_kit/
+qr_out.png
+*.png
+
+# OS / editors
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
